@@ -4,30 +4,29 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "gray-20": "#F8F4EB",
-        "gray-50": "#EFE6E6",
-        "gray-100": "#DFCCCC",
-        "gray-500": "#5E0000",
-        "primary-100": "#FFE1E0",
-        "primary-300": "#FFA6A3",
-        "primary-500": "#FF6B66",
-        "secondary-400": "#FFCD5B",
-        "secondary-500": "#FFC132",
+        "gray-20": "#E2E2E2",
+        "gray-50": "#E9EEF3",
+        "gray-100": "#D3DCE6",
+        "gray-500": "#3B3F58",
+        "primary-100": "#D1FAE5",   // soft mint green
+        "primary-300": "#6EE7B7",   // light green
+        "primary-500": "#10B981",   // emerald
+        "secondary-400": "#BFDBFE", // light blue
+        "secondary-500": "#3B82F6", // blue
       },
       backgroundImage: (theme) => ({
-        "gradient-yellowred":
-          "linear-gradient(90deg, #FF616A 0%, #FFC837 100%)",
-        "mobile-home": "url('./assets/HomePageGraphic.png')",
+        "gradient-yellowred": "linear-gradient(90deg, #6EE7B7 0%, #3B82F6 100%)", // replaced red-yellow with green-blue
+        "mobile-home": "url('./assets/NewHomeGraphic.png')", // rename your asset accordingly
       }),
       fontFamily: {
-        dmsans: ["DM Sans", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        dmsans: ["Inter", "sans-serif"],        // replacing font but keeping name
+        montserrat: ["Roboto", "sans-serif"],   // same here
       },
       content: {
-        evolvetext: "url('./assets/EvolveText.png')",
-        abstractwaves: "url('./assets/AbstractWaves.png')",
-        sparkles: "url('./assets/Sparkles.png')",
-        circles: "url('./assets/Circles.png')",
+        evolvetext: "url('./assets/NewEvolveText.png')",
+        abstractwaves: "url('./assets/NewAbstractWaves.png')",
+        sparkles: "url('./assets/NewSparkles.png')",
+        circles: "url('./assets/NewCircles.png')",
       },
     },
     screens: {
