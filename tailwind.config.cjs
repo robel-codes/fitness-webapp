@@ -16,17 +16,17 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         "gradient-yellowred": "linear-gradient(90deg, #6EE7B7 0%, #3B82F6 100%)", // replaced red-yellow with green-blue
-        "mobile-home": "url('./assets/NewHomeGraphic.png')", // rename your asset accordingly
+        "mobile-home": "url('./assets/HomeGraphic.png')", // rename your asset accordingly
       }),
       fontFamily: {
         dmsans: ["Inter", "sans-serif"],        // replacing font but keeping name
         montserrat: ["Roboto", "sans-serif"],   // same here
       },
       content: {
-        evolvetext: "url('./assets/NewEvolveText.png')",
-        abstractwaves: "url('./assets/NewAbstractWaves.png')",
-        sparkles: "url('./assets/NewSparkles.png')",
-        circles: "url('./assets/NewCircles.png')",
+        evolvetext: "url('./assets/EvolveText.png')",
+        abstractwaves: "url('./assets/AbstractWaves.png')",
+        sparkles: "url('./assets/Sparkles.png')",
+        circles: "url('./assets/Circles.png')",
       },
     },
     screens: {
